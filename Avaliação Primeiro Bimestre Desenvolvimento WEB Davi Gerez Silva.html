@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio pessoal de [Seu Nome]">
+    <title>Portfólio de Davi Gerez Silva</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section, article {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007BFF;
+        }
+        p {
+            text-align: justify;
+        }
+        .left-aligned {
+            text-align: left;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #333;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input, form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 1rem;
+        }
+        form button {
+            padding: 10px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 600px) {
+            section, article {
+                margin: 10px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Davi Gerez Silva</h1>
+    <nav>
+        <a href="https://github.com/DaviGerezSilva" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/davi-gerez-silva-036329256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a>
+    </nav>
+</header>
+
+<section>
+    <h2>Sobre Mim</h2>
+    <p class="left-aligned">
+        Olá, meu nome é <strong>Davi Gerez Silva</strong>. Sou um aluno de Análise e Desenvolvimento de Sistemas, já possuou alguns conhecimentos e outros aprendendo, como <em>HTML, CSS, JavaScript</em> e <strong>C</strong>.
+    </p>
+    <p>
+        Eu gosto de aprender novas tecnologias e <em>trabalhar em projetos desafiadores</em>. Além de programação, tenho interesse em programar jogos<strong></strong> e <em>ter uma loja de reparo de aparelhos eletrônicos</em>.
+    </p>
+</section>
+
+<article>
+    <h2>Minhas Habilidades</h2>
+    <ol>
+        <li>Desenvolvimento Web</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Banco de Dados</li>
+    </ol>
+</article>
+
+<article>
+    <h2>Meus Hobbies</h2>
+    <ul>
+        <li>Jogos</li>
+        <li>Esportes</li>
+        <li>Tecnologias em geral</li>
+    </ul>
+</article>
+
+<article>
+    <h2>Conhecimentos Técnicos</h2>
+    <table>
+        <tr>
+            <th>Redes (geral)</th>
+            <th>Intermediário</th>
+        </tr>
+        <tr>
+            <td>HTML/CSS</td>
+            <td>Intermediário</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Intermediário</td>
+        </tr>
+        <tr>
+            <td>Linguagem C</td>
+            <td>Básico</td>
+        </tr>
+        <tr>
+            <td>Banco de Dados</td>
+            <td>Intermediário</td>
+        </tr>
+    </table>
+</article>
+
+<article>
+    <h2>Entre em Contato</h2>
+    <style>
+        label, input {
+            margin-bottom: 5px;
+            display: block;
+        }
+        .section-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .input-label {
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        .spacer {
+            margin-bottom: 15px;
+        }
+        .form-container {
+            margin-bottom: 50px; /* Espaço abaixo do formulário para evitar sobreposição com o footer */
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            position: relative;
+            width: 100%;
+            padding: 10px; /* Adiciona algum padding para melhorar o espaçamento */
+            box-sizing: border-box; /* Garante que o padding não afete o tamanho total do footer */
+        }
+    </style>
+    <div class="form-container">
+        <form action="https://formspree.io/f/xzzplpyl" method="POST">
+            <label class="input-label" for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label class="input-label" for="email">E-mail:</label>
+            <input type="email" id="email" name="_replyto" required>
+
+            <div class="spacer"></div>
+
+            <label class="section-title">Gênero:</label>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="feminino">Feminino</label>
+            <input type="radio" id="feminino" name="genero" value="feminino">
+            <label for="outro">Outro</label>
+            <input type="radio" id="outro" name="genero" value="outro">
+
+            <div class="spacer"></div>
+
+            <label class="section-title">Interesses:</label>
+            <label for="frontend">Frontend</label>
+            <input type="checkbox" id="frontend" name="interesses" value="frontend">
+            <label for="backend">Backend</label>
+            <input type="checkbox" id="backend" name="interesses" value="backend">
+            <label for="ai">Inteligência Artificial</label>
+            <input type="checkbox" id="ai" name="interesses" value="ai">
+
+            <div class="spacer"></div>
+
+            <label class="input-label" for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <footer>
+        © 2024 Davi Gerez Silva. Todos os direitos reservados.
+    </footer>
+</article>
+
+</body>
+</html>
